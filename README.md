@@ -71,7 +71,13 @@ build/bin/test/back-tester-tests "[BasicTypes]"   # single tag
 ## Run
 
 ```bash
-build/bin/back-tester
+build/bin/back-tester <path-to-daily-ndjson-file>
+```
+
+Example:
+
+```bash
+build/bin/back-tester data/XEUR-20260409-HTT6HHLT6R/xeur-eobi-20260309.mbo.json
 ```
 
 ## Contributing
